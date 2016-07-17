@@ -15,9 +15,9 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-#gem 'jquery-rails'
+gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-#gem 'turbolinks'
+gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -56,4 +56,9 @@ group :test do
 end
 
 gem "devise"
+gem "sabisu_rails", github: "IcaliaLabs/sabisu-rails"
+gem "compass-rails", '~> 2.0'
+gem "furatto", github: "IcaliaLabs/furatto-rails"
+gem "font-awesome-rails", '~> 4.6.3.1'
+gem "simple_form", '~> 3.2.1'
 
