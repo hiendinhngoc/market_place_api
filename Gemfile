@@ -33,7 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 #Api gems
-gem 'active_model_serializers'
+gem 'active_model_serializers', git: 'git@github.com:rails-api/active_model_serializers.git', branch: '0-8-stable'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -61,4 +61,3 @@ gem "compass-rails", '~> 2.0'
 gem "furatto", github: "IcaliaLabs/furatto-rails"
 gem "font-awesome-rails", '~> 4.6.3.1'
 gem "simple_form", '~> 3.2.1'
-
