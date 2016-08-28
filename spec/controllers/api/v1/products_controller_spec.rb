@@ -42,6 +42,8 @@ describe Api::V1::ProductsController do
         end
       end
 
+      it_behaves_like "paginated list"
+
       it { should respond_with 200 }
     end
 
