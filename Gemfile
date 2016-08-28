@@ -63,3 +63,4 @@ gem "furatto", github: "IcaliaLabs/furatto-rails"
 gem "font-awesome-rails", '~> 4.6.3.1'
 gem "simple_form", '~> 3.2.1'
 gem "kaminari"
+gem "delayed_job_active_record"
